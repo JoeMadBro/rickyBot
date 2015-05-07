@@ -40,7 +40,7 @@ $ricky = array("Friends with benedicts",
 	       "I'm not a pessimist, I'm an optometrist",
                "Worst case Ontario");
 //0-19
-$response = $reddit->addComment($redditAlert->reddit->name,'I guess I'm here to randomically pick something from my databanks \n\n' . $ricky[rand(0-19)]);
+$response = $reddit->addComment($redditAlert->reddit->name, "I guess I'm here to randomically pick something from my databanks \n\n" . $ricky[rand(0-19)]);
 var_dump($response);
 exit;
 ?>
